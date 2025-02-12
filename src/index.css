@@ -160,8 +160,8 @@ button:hover {
   overflow: hidden;
   margin-top: 20px;
   width: 100%;
-  height: 6px;
-  border-radius: 3px;
+  height: 12px;
+  border-radius: 6px;
   background-color: hsl(var(--muted-foreground) / 0.3);
   cursor: pointer;
 }
@@ -174,4 +174,5 @@ button:hover {
   bottom: 0;
   background-color: red;
   transform: translateX(-2px);
+  pointer-events: none;
 }
