@@ -8,6 +8,6 @@ const video = new core.VideoClip('/377611_Father_Back_Yard_Slide_Family_Video_By
 }).subclip('2s', '12s'); // 2 seconds to 12 seconds
 
 // make sure video starts at 0 (with sequential)
-const track = composition.createLayer().sequential();
+const layer = composition.createLayer().sequential();
 
-await track.add(video);
+await layer.add(video);
